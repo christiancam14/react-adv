@@ -31,7 +31,7 @@ export const Navigation = () => {
             ))}
             <Route
               path="/*"
-              element={<Navigate to="/home" replace></Navigate>}
+              element={<Navigate to={routes[0].to} replace></Navigate>}
             />
           </Routes>
         </div>
